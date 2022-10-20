@@ -19,7 +19,7 @@ body{
     margin-bottom: 0;
 }
 .headerImage {
-    background-image: url('/Users/piotr/Documents/my website/_1190910-206.jpg');
+    background-image: url('_1190910-206.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
