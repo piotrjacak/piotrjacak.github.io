@@ -19,7 +19,7 @@ body{
     margin-bottom: 0;
 }
 .headerImage {
-    background-image: url('../images/_1190910-206.jpg');
+    background-image: url("https://piotrjacak.github.io/images/_1190910-206.jpg");
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
