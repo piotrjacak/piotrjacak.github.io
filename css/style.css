@@ -1,0 +1,619 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E4E5E6;
+}
+
+
+.headerText{
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin-bottom: 0;
+}
+.headerImage {
+    background-image: url('/Users/piotr/Documents/my website/_1190910-206.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #2A2A2A;
+    color: white;
+    margin-top:0;
+    padding:0;
+    text-align: center;
+    opacity: 0.75;
+}
+
+.navButton {
+    background-color: #2A2A2A;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    width: 15%;
+    opacity: 0.75;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.navButton:hover {
+    background-color: #A1A1A1;
+}
+
+/* INDEX */ 
+.main_index {
+    height: auto;
+    text-align: center;
+    background-color: #E4E5E6;
+}
+.photosHome {
+    width: 98%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.area1 {
+    width: 66.6%;
+    height: 850px;
+    margin: 0;
+    float: left;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area1:hover {
+    filter: brightness(60%)
+}
+.area2 {
+    width: 33.3%;
+    height: 850px;
+    margin: 0;
+    display: inline-block;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area2:hover {
+    filter: brightness(60%)
+}
+.area3 {
+    width: 100%;
+    height: 850px;
+    margin: auto;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area3:hover {
+    filter: brightness(60%)
+}
+.area4 {
+    width: 33.3%;
+    height: 850px;
+    margin-top: 3px;
+    float: left;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area4:hover {
+    filter: brightness(60%)
+}
+.area5 {
+    width: 66.6%;
+    height: 850px;
+    margin-top: 3px;
+    display: inline-block;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area5:hover {
+    filter: brightness(60%)
+}
+.area6 {
+    width: 100%;
+    height: 850px;
+    margin: auto;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area6:hover {
+    filter: brightness(60%)
+}
+.area7 {
+    width: 33%;
+    height: 850px;
+    float:left;
+    margin-top: 3px;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area7:hover {
+    filter: brightness(60%)
+}
+.area8 {
+    width: 33%;
+    height: 850px;
+    display: inline-block;
+    margin-top: 3px;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area8:hover {
+    filter: brightness(60%)
+}
+.area9 {
+    width: 33%;
+    height: 850px;
+    display: inline-block;
+    margin-top: 3px;
+    background-image: url('/Users/piotr/Documents/my website/home/zdjecie5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.area9:hover {
+    filter: brightness(60%)
+}
+
+/* PORTFOLIO */
+.main_portfolio {
+    height: auto;
+    text-align: center;
+    background-color: #E4E5E6;
+}
+
+.rome {
+    width: 94%;
+    height: 300px;
+    background-image: url('/Users/piotr/Documents/my website/miniatury/P1040804.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2A2A2A;
+    filter: brightness(75%);
+    transition: transform .5s ease;
+    transition-duration: 0.5s;
+}
+.rome:hover{
+    filter: brightness(100%);
+    transform: scale(1.03);
+}
+.romeVideo{
+    width: 92%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 50px;
+}
+.copenhagen {
+    width: 94%;
+    height: 300px;
+    background-image: url('/Users/piotr/Documents/my website/miniatury/copenhagen.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2A2A2A;
+    filter: brightness(75%);
+    transition-duration: 0.5s;
+    transition: transform .5s ease;
+}
+.copenhagen:hover{
+    filter: brightness(100%);
+    transform: scale(1.03);
+}
+.copenhagenVideo{
+    width: 92%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 50px;
+}
+.tatraMountains {
+    width: 94%;
+    height: 300px;
+    background-image: url('/Users/piotr/Documents/my website/_1190910-206.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2A2A2A;
+    background-size: cover;
+    filter: brightness(75%);
+    transition: transform .5s ease;
+    transition-duration: 0.5s;
+}
+.tatraMountains:hover{
+    filter: brightness(100%);
+    transform: scale(1.03);
+}
+.tatraMountainsVideo{
+    width: 92%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 50px;
+}
+.suzuka {
+    width: 94%;
+    height: 300px;
+    background-image: url('/Users/piotr/Documents/my website/miniatury/miniatura2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    position: center;
+    margin-top: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2A2A2A;
+    filter: brightness(75%);
+    transition-duration: 0.5s;
+    transition: transform .5s ease;
+}
+.suzuka:hover{
+    filter: brightness(100%);
+    transform: scale(1.03);
+}
+.suzukaVideo{
+    width: 92%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 50px;
+}
+.madness{
+    width: 94%;
+    height: 300px;
+    background-image: url('/Users/piotr/Documents/my website/miniatury/123210800_2791194261124352_5675566567328469580_n.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2A2A2A;
+    filter: brightness(75%);
+    transition-duration: 0.5s;
+    transition: transform .5s ease;
+}
+.madness:hover{
+    filter: brightness(100%);
+    transform: scale(1.03);
+}
+.madnessVideo{
+    width: 92%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 50px;
+}
+.pizza {
+    width: 94%;
+    height: 300px;
+    background-image: url('/Users/piotr/Documents/my website/miniatury/pizza.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2A2A2A;
+    filter: brightness(75%);
+    transition-duration: 0.5s;
+    transition: transform .5s ease;
+}
+.pizza:hover{
+    filter: brightness(100%);
+    transform: scale(1.03);
+}
+.pizzaVideo{
+    width: 92%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 50px;
+}
+.decyzja {
+    width: 94%;
+    height: 300px;
+    background-image: url('/Users/piotr/Documents/my website/miniatury/decyzja.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2A2A2A;
+    filter: brightness(75%);
+    transition-duration: 0.5s;
+    transition: transform .5s ease;
+}
+.decyzja:hover{
+    filter: brightness(100%);
+    transform: scale(1.03);
+}
+.decyzjaVideo{
+    width: 92%;
+    height: 400px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 50px;
+}
+.videoText {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 55px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.3em;
+    position: absolute;
+}
+
+/* CONTACT */
+.main_contact {
+    height: auto;
+    text-align: center;
+    padding: 20x;
+}
+.socials {
+    width: 50%;
+    height: 600px;
+    color: black;
+    margin: auto;
+    line-height: 5em;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.container {
+    width: 50%;
+    height: 600px;
+    line-height: 2em;
+    display: inline-block;    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contact {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    background-color: #2A2A2A;
+    color: white;
+    margin: 20px;
+    border-radius: 2%;
+
+}
+.contact input[class='input_name'], input[type='email'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.input_msg {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    border: 1px solid #ccc;
+    height: 150px;
+    resize: none;
+}
+.submit {
+    display: block;
+    width: 50%;
+    padding: 10px 15px;
+    border: 0;
+    background-color: #666666;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #979797;
+}
+
+/* ABOUT ME */
+.main_about_me {
+    height: auto;
+    text-align: center;
+    padding: 20x;
+    background-color: white;
+}
+.my-picture {
+    width: 50%;
+    height: 800px;
+    float: left;
+}
+
+.background_about_me {
+    background-image: url('/Users/piotr/Documents/my website/_1150535.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    padding: 20x;
+    background-color: white;
+}
+
+.photo {
+    width: 50%;
+    height: auto;
+    position: relative;
+    position: center;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-duration: 0.4s;
+    border-radius: 2%;
+    padding: 0;
+}
+.photo:hover{
+    filter: brightness(50%)
+}
+
+.description_box {
+    width: 50%;
+    height: 800px;
+    display: inline-block;
+}
+
+.description {
+    font-size: 17px;
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    transition-duration: 0.4s;
+}
+
+/* GEAR */
+.main_gear {
+    height: auto;
+    text-align: center;
+    background-color: #E4E5E6;
+}
+.gearPhoto {
+    width: 70%;
+    height: 1200px;
+    margin: 0;
+    display: inline-block;
+    background-image: url('/Users/piotr/Documents/my website/1658906125095.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.gearPhoto:hover {
+    filter: brightness(70%);
+}
+.gearTextBox {
+    width: 30%;
+    height: 1200px;
+    margin: 0;
+    float: right;
+}
+.gearText {
+    width: 70%;
+    height: 1200px;
+    margin: auto;
+    border-radius: 2%;
+    line-height: 3.5em;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+
+
+/* FOOTER */
+.footer{
+    text-align: center;
+    padding: 1px;
+    background-color: #2A2A2A;
+    color: white;
+}
+
+

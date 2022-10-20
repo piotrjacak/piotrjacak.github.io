@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Piotr Jacak filmmaking" content="Piotr Jacak - website">
+    <title>Piotr Jacak</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7845a5cfd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="headerImage">
+                <div class="headerText">
+                    <a href="index.html" style="text-decoration: none; color: black"> 
+                        <h1>PIOTR JACAK</h1>
+                    </a>
+                    <h2>filmmaking</h2>
+                </div>
+                <div class="navbar">
+                    <button type="button" class="navButton" onclick="window.location.href='index.html'">Home</button>
+                    <button type="button" class="navButton" onclick="window.location.href='portfolio.html'">Portfolio</button>
+                    <button type="button" class="navButton" onclick="window.location.href='gear.html'">Sprzęt</button>
+                    <button type="button" class="navButton" onclick="window.location.href='about_me.html'">O mnie</button>
+                    <button type="button" class="navButton" onclick="window.location.href='contact.html'">Kontakt</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_contact">
+            <div class="socials">
+                <ul style="list-style: none"> 
+                    <a href="https://www.instagram.com/piotrekjacak/" target="_blank" style="text-decoration: none; color: black"><li><i class="fa-brands fa-instagram"></i>      Instagram</li></a>
+                    <a href="https://www.youtube.com/channel/UCcXolRZ7_nt_8BQMQdT4Xkg" target="_blank" style="text-decoration: none; color: black"><li><i class="fa-brands fa-youtube"></i>        Youtube</li></a>
+                    <a href="https://www.facebook.com/pietrak32/" target="_blank" style="text-decoration: none; color: black"><li><i class="fa-brands fa-facebook"></i>       Facebook</li></a>
+                    <a href="https://twitter.com/piotrjacak" target="_blank" style="text-decoration: none; color: black"><li><i class="fa-brands fa-twitter"></i>        Twittter</li></a>
+                </ul>
+            </div>
+            
+            <div class="container">
+                <form class="contact" action="https://formsubmit.co/piotr.jac2003@gmail.com" method="POST">
+                    <h2>Kontakt</h2>
+                    <div class="name">
+                        <label for="text">Twoje imię </label>
+                        <input type="text" class="input_name">
+                    </div>
+                    <div class="email">
+                        <label for="email">Twój email:</label>
+                        <input type="email" class="input_email">
+                    </div>
+                    <div class="msg">
+                        <label for="type">Wiadomość:</label>
+                        <textarea type="text" class="input_msg"></textarea>
+                    </div>
+                    <input class="submit" type="submit" value="Wyślij">
+                </form>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <h6>Copyright © 2022 Piotr Jacak</h6>
+        </div>
+    </footer>
+</body>
+</html>
