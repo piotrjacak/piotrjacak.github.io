@@ -89,7 +89,7 @@ body{
     height: 850px;
     margin: 0;
     display: inline-block;
-    background-image: url('/Users/piotr/Documents/my website/home/zdjecie1.jpg');
+    background-image: url('https://piotrjacak.github.io/images/zdjecie1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -103,7 +103,7 @@ body{
     width: 100%;
     height: 850px;
     margin: auto;
-    background-image: url('/Users/piotr/Documents/my website/home/zdjecie6.jpg');
+    background-image: url('https://piotrjacak.github.io/images/zdjecie6.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -118,7 +118,7 @@ body{
     height: 850px;
     margin-top: 3px;
     float: left;
-    background-image: url('/Users/piotr/Documents/my website/home/zdjecie3.jpg');
+    background-image: url('https://piotrjacak.github.io/images/zdjecie3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -133,7 +133,7 @@ body{
     height: 850px;
     margin-top: 3px;
     display: inline-block;
-    background-image: url('/Users/piotr/Documents/my website/home/zdjecie9.jpg');
+    background-image: url('https://piotrjacak.github.io/images/zdjecie9.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -147,7 +147,7 @@ body{
     width: 100%;
     height: 850px;
     margin: auto;
-    background-image: url('/Users/piotr/Documents/my website/home/zdjecie8.jpg');
+    background-image: url('https://piotrjacak.github.io/images/zdjecie8.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -162,7 +162,7 @@ body{
     height: 850px;
     float:left;
     margin-top: 3px;
-    background-image: url('/Users/piotr/Documents/my website/home/zdjecie2.jpg');
+    background-image: url('https://piotrjacak.github.io/images/zdjecie2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -177,7 +177,7 @@ body{
     height: 850px;
     display: inline-block;
     margin-top: 3px;
-    background-image: url('/Users/piotr/Documents/my website/home/zdjecie4.jpg');
+    background-image: url('https://piotrjacak.github.io/images/zdjecie4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -192,7 +192,7 @@ body{
     height: 850px;
     display: inline-block;
     margin-top: 3px;
-    background-image: url('/Users/piotr/Documents/my website/home/zdjecie5.jpg');
+    background-image: url('https://piotrjacak.github.io/images/zdjecie5.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -213,7 +213,7 @@ body{
 .rome {
     width: 94%;
     height: 300px;
-    background-image: url('/Users/piotr/Documents/my website/miniatury/P1040804.JPG');
+    background-image: url('https://piotrjacak.github.io/images/P1040804.JPG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -242,7 +242,7 @@ body{
 .copenhagen {
     width: 94%;
     height: 300px;
-    background-image: url('/Users/piotr/Documents/my website/miniatury/copenhagen.png');
+    background-image: url('https://piotrjacak.github.io/images/copenhagen.png');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -270,7 +270,7 @@ body{
 .tatraMountains {
     width: 94%;
     height: 300px;
-    background-image: url('/Users/piotr/Documents/my website/_1190910-206.jpg');
+    background-image: url('https://piotrjacak.github.io/images/_1190910-206.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -299,7 +299,7 @@ body{
 .suzuka {
     width: 94%;
     height: 300px;
-    background-image: url('/Users/piotr/Documents/my website/miniatury/miniatura2.jpg');
+    background-image: url('https://piotrjacak.github.io/images/miniatura2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -329,7 +329,7 @@ body{
 .madness{
     width: 94%;
     height: 300px;
-    background-image: url('/Users/piotr/Documents/my website/miniatury/123210800_2791194261124352_5675566567328469580_n.jpg');
+    background-image: url('https://piotrjacak.github.io/images/123210800_2791194261124352_5675566567328469580_n.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -357,7 +357,7 @@ body{
 .pizza {
     width: 94%;
     height: 300px;
-    background-image: url('/Users/piotr/Documents/my website/miniatury/pizza.png');
+    background-image: url('https://piotrjacak.github.io/images/pizza.png');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -385,7 +385,7 @@ body{
 .decyzja {
     width: 94%;
     height: 300px;
-    background-image: url('/Users/piotr/Documents/my website/miniatury/decyzja.png');
+    background-image: url('https://piotrjacak.github.io/images/decyzja.png');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -515,7 +515,7 @@ body{
 }
 
 .background_about_me {
-    background-image: url('/Users/piotr/Documents/my website/_1150535.jpg');
+    background-image: url('https://piotrjacak.github.io/images/_1150535.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -574,7 +574,7 @@ body{
     height: 1200px;
     margin: 0;
     display: inline-block;
-    background-image: url('/Users/piotr/Documents/my website/1658906125095.jpg');
+    background-image: url('https://piotrjacak.github.io/images/1658906125095.jpg');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
