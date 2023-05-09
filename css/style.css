@@ -213,11 +213,12 @@ body{
 .azyl {
     width: 94%;
     height: 300px;
-    background-image: url('https://piotrjacak.github.io/images/P1040804.JPG');
-    background-size: cover;
+    background-image: url('https://piotrjacak.github.io/images/azyl.png');
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    position: center;
+    margin-top: 50px;
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 7px;
@@ -225,14 +226,14 @@ body{
     border-width: 1px;
     border-color: #2A2A2A;
     filter: brightness(75%);
-    transition: transform .5s ease;
     transition-duration: 0.5s;
+    transition: transform .5s ease;
 }
-.rome:hover{
+.suzuka:hover{
     filter: brightness(100%);
     transform: scale(1.03);
 }
-.romeVideo{
+.suzukaVideo{
     width: 92%;
     height: 400px;
     margin-left: 4%;
