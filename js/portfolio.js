@@ -1,3 +1,17 @@
+const targetDivAzyl = document.querySelector('.azylVideo');
+const azyl_btn = document.querySelector('.azyl');
+
+targetDivSuzuka.style.display = "none";
+
+suzuka_btn.onclick = function () {
+    if (targetDivSuzuka.style.display !== "none") {
+      targetDivSuzuka.style.display = "none";
+    } else {
+      targetDivSuzuka.style.display = "block";
+      targetDivSuzuka.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"}); 
+    }};
+
+
 const targetDivSuzuka = document.querySelector('.suzukaVideo');
 const suzuka_btn = document.querySelector('.suzuka');
 
