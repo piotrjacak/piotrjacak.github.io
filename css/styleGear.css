@@ -1,0 +1,44 @@
+/* GEAR */
+
+
+.main_gear {
+    height: auto;
+    text-align: center;
+    background-color: #E4E5E6;
+}
+.gearPhoto {
+    width: 70%;
+    height: 1200px;
+    margin: 0;
+    display: inline-block;
+    background-image: url('https://piotrjacak.github.io/images/1658906125095.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+}
+.gearPhoto:hover {
+    filter: brightness(70%);
+}
+.gearTextBox {
+    width: 30%;
+    height: 1200px;
+    margin: 0;
+    float: right;
+}
+.gearText {
+    width: 70%;
+    height: 1200px;
+    margin: auto;
+    border-radius: 2%;
+    line-height: 3.5em;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}

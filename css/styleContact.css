@@ -1,0 +1,80 @@
+/* CONTACT */
+
+
+.main_contact {
+    height: auto;
+    text-align: center;
+    padding: 20x;
+}
+.socials {
+    width: 50%;
+    height: 600px;
+    color: black;
+    margin: auto;
+    line-height: 5em;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.container {
+    width: 50%;
+    height: 600px;
+    line-height: 2em;
+    display: inline-block;    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.contact {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    background-color: #2A2A2A;
+    color: white;
+    margin: 20px;
+    border-radius: 2%;
+
+}
+.contact input[class='input_name'], input[type='email'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.input_msg {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    border: 1px solid #ccc;
+    height: 150px;
+    resize: none;
+}
+.submit {
+    display: block;
+    width: 50%;
+    padding: 10px 15px;
+    border: 0;
+    background-color: #666666;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #979797;
+}
