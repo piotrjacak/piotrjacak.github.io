@@ -1,14 +1,14 @@
 const targetDivAzyl = document.querySelector('.azylVideo');
 const azyl_btn = document.querySelector('.azyl');
 
-targetDivSuzuka.style.display = "none";
+targetDivAzyl.style.display = "none";
 
-suzuka_btn.onclick = function () {
-    if (targetDivSuzuka.style.display !== "none") {
-      targetDivSuzuka.style.display = "none";
+azyl_btn.onclick = function () {
+    if (targetDivAzyl.style.display !== "none") {
+      targetDivAzyl.style.display = "none";
     } else {
-      targetDivSuzuka.style.display = "block";
-      targetDivSuzuka.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"}); 
+      targetDivAzyl.style.display = "block";
+      targetDivAzyl.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"}); 
     }};
 
 
