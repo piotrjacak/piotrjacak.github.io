@@ -1,3 +1,17 @@
+const targetDivVilnius = document.querySelector('.vilniusVideo');
+const vilnius_btn = document.querySelector('.vilnius');
+
+targetDivVilnius.style.display = "none";
+
+vilnius_btn.onclick = function () {
+    if (targetDivVilnius.style.display !== "none") {
+      targetDivVilnius.style.display = "none";
+    } else {
+      targetDivVilnius.style.display = "block";
+      targetDivVilnius.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"}); 
+    }};
+
+
 const targetDivAzyl = document.querySelector('.azylVideo');
 const azyl_btn = document.querySelector('.azyl');
 
