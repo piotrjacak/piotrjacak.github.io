@@ -1,3 +1,17 @@
+const targetDivJoker = document.querySelector('.jokerVideo');
+const joker_btn = document.querySelector('.joker');
+
+targetDivJoker.style.display = "none";
+
+joker_btn.onclick = function () {
+    if (targetDivJoker.style.display !== "none") {
+      targetDivJoker.style.display = "none";
+    } else {
+      targetDivJoker.style.display = "block";
+      targetDivJoker.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"}); 
+    }};
+
+
 const targetDivVilnius = document.querySelector('.vilniusVideo');
 const vilnius_btn = document.querySelector('.vilnius');
 
