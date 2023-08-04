@@ -3,7 +3,9 @@
 .mainPortfolio {
     height: auto;
     text-align: center;
-    background-color: #E4E5E6;
+    /*background-color: #E4E5E6;*/
+    /* background-color: #767676; */
+    background-image: linear-gradient(to right, #2A2A2A, #A1A1A1);
 }
 
 .joker {

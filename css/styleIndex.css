@@ -4,7 +4,7 @@
 .main_index {
     height: auto;
     text-align: center;
-    background-color: #E4E5E6;
+    background-image: linear-gradient(to right, #2A2A2A, #A1A1A1);
 }
 .photosHome {
     width: 98%;

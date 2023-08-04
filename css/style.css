@@ -5,7 +5,9 @@ html {
 body{
     margin:0;
     font-family: 'Raleway', sans-serif;
-    background-color: #E4E5E6;
+    /*background-color: #E4E5E6; */
+    /*background-color: #767676; */
+    background-image: linear-gradient(to right, #2A2A2A, #A1A1A1);
 }
 
 .headerText{
@@ -28,7 +30,7 @@ body{
 }
 
 .navbar{
-    background-color: #2A2A2A;
+    background-color: black;
     color: white;
     margin-top:0;
     padding:0;
@@ -37,7 +39,7 @@ body{
 }
 
 .navButton {
-    background-color: #2A2A2A;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px;
@@ -60,7 +62,7 @@ body{
 .footer{
     text-align: center;
     padding: 1px;
-    background-color: #2A2A2A;
+    background-color: black;
     color: white;
 }
 
