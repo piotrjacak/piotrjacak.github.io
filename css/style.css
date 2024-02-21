@@ -5,9 +5,10 @@ html {
 body{
     margin:0;
     font-family: 'Raleway', sans-serif;
-    /*background-color: #E4E5E6; */
+    /*background-color: #E4E5E6;*/
     /*background-color: #767676; */
-    background-image: linear-gradient(to right, #2A2A2A, #A1A1A1);
+    /*background-image: linear-gradient(to right, #2A2A2A, #A1A1A1);*/
+    background-color: #EAE9E9;
 }
 
 .headerText{
